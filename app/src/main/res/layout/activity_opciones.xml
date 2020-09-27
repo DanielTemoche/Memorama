@@ -10,7 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="70dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +23,8 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="40px"
+                android:layout_marginBottom="40dp"
+                android:padding="34dp"
                 app:srcCompat="@drawable/logo" />
 
             <Button
