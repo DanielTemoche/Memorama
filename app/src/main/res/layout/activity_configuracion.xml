@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Pantallas.Configuracion">
+
+
+    <ImageView
+        android:id="@+id/reloj"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:layout_margin="40px"
+        app:srcCompat="@drawable/reloj" />
+
+    <CheckBox
+        android:id="@+id/temporizador"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:text="Temporizado"
+        android:textColor="@android:color/black"
+        android:textColorLink="#122485"
+        android:textCursorDrawable="@drawable/custom_button"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/minutos"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_margin="10px"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:enabled="false"
+        android:hint="Ingrese los minutos"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/segundos"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_margin="10px"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:enabled="false"
+        android:hint="Ingrese los segundos"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/aplicar"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:shadowRadius="10"
+        android:text="Aplicar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

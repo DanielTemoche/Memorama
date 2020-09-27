@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pantallas.Names">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="35dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/logo"
+                    />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/jugadoruno"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="20px"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:paddingLeft="12dp"
+                    android:drawablePadding="60dp"
+                    android:background="@drawable/custom_input"
+                    android:hint="Jugador uno"
+
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/jugadordos"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="20px"
+                    android:background="@drawable/custom_input"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:paddingLeft="12dp"
+                    android:drawablePadding="60dp"
+                    android:hint="Jugador dos"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ingresar"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_button"
+                    android:text="Ingresar"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
