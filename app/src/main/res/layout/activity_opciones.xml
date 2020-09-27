@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="top|center_horizontal"
     android:orientation="vertical"
-    tools:context=".Pantallas.Opciones">
+    tools:context="com.kytom.memorama.Pantallas.Opciones">
 
     <ScrollView
         android:layout_width="match_parent"

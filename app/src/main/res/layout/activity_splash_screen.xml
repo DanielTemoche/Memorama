@@ -7,7 +7,7 @@
     android:background="#FFFFFF"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".splashscreen">
+    tools:context="com.kytom.memorama.splashscreen">
 
     <ImageView
         android:id="@+id/imageView2"

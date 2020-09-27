@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Pantallas.Juego">
+    tools:context="com.kytom.memorama.Pantallas.Juego">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,12 +1,13 @@
-package com.kytom.memorama.Tiempo;
+package com.kytom.memorama;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import com.example.bienestaraprendiz.emparejapp.R;
+import com.kytom.memorama.BD.Crud;
+import com.kytom.memorama.Pantallas.Names;
 
-import com.example.bienestaraprendiz.emparejapp.BD.Crud;
-import com.example.bienestaraprendiz.emparejapp.Pantallas.Names;
 
 public class splashscreen extends AppCompatActivity {
 

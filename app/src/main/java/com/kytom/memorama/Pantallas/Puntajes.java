@@ -1,16 +1,22 @@
 package com.kytom.memorama.Pantallas;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;;
+
+import android.view.View;
+
+import android.widget.Button;
+
+
 import android.view.View;
 import android.widget.Button;
 
-import com.example.bienestaraprendiz.emparejapp.Adaptadores.AdapterPuntajes;
-import com.example.bienestaraprendiz.emparejapp.BD.Crud;
-import com.example.bienestaraprendiz.emparejapp.Entidades.ListaVo;
-import com.example.bienestaraprendiz.emparejapp.Entidades.PuntajesVo;
+import com.kytom.memorama.Adaptadores.AdapterPuntajes;
+import com.kytom.memorama.BD.Crud;
+import com.kytom.memorama.Entidades.ListaVo;
+import com.kytom.memorama.Entidades.PuntajesVo;
 import com.example.bienestaraprendiz.emparejapp.R;
 
 import java.util.ArrayList;

@@ -6,16 +6,16 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.bienestaraprendiz.emparejapp.BD.Crud;
-import com.example.bienestaraprendiz.emparejapp.Entidades.PuntajesVo;
+import com.kytom.memorama.BD.Crud;
+import com.kytom.memorama.Entidades.PuntajesVo;
 import com.example.bienestaraprendiz.emparejapp.R;
-import com.example.bienestaraprendiz.emparejapp.Tiempo.Tiempo;
+import com.kytom.memorama.Tiempo.Tiempo;
 
 import java.util.ArrayList;
 import java.util.Random;

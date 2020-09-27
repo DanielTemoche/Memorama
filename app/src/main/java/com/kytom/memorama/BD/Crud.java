@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.bienestaraprendiz.emparejapp.Entidades.PuntajesVo;
+import com.kytom.memorama.Entidades.PuntajesVo;
 
 import java.util.ArrayList;
 
