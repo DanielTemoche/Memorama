@@ -86,7 +86,7 @@ public class Juego extends AppCompatActivity {
 
         //Array de identificacion de las imagenes
         Ids.add(imagen1=findViewById(R.id.imagen1));Ids.add(imagen2=findViewById(R.id.imagen2));Ids.add(imagen3=findViewById(R.id.imagen3));Ids.add(imagen4=findViewById(R.id.imagen4));Ids.add(imagen5=findViewById(R.id.imagen5));Ids.add(imagen6=findViewById(R.id.imagen6));Ids.add(imagen7=findViewById(R.id.imagen7));Ids.add(imagen8=findViewById(R.id.imagen8));
-        //Array de las imagenes
+        //        //Array de las imagenes
         images.add(R.drawable.imagen1);
         images.add(R.drawable.imagen2);
         images.add(R.drawable.imagen3);

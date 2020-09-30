@@ -64,8 +64,7 @@ public class Crud extends SQLiteOpenHelper {
         Cursor cursor=db.rawQuery("select * from "+table,null);
         while (cursor.moveToNext()){
             lista.add(new PuntajesVo(cursor.getString(1),cursor.getString(2),cursor.getString(3)));
-        }
+        }   
         cursor.close();
-
     }
 }
